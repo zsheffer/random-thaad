@@ -1,7 +1,13 @@
 import random
 
-allowedInputs   = ["1","2"]   # we are just going to deal with string
-mappedInputs    = ["Thad","Thaad"]   # we are just going to deal with string
+# TODO
+# - allow scores to persist
+# - set up allowed/map as dict
+# - wrap properly in main functions
+# - add UI with buttons to make this easier
+
+allowedInputs   = ["1","2"]             # we are just going to deal with string
+mappedInputs    = ["Thad","Thaad"]      # we will map to the pretty name after
 
 answer          = random.choice( allowedInputs )
 mappedAnswer    = mappedInputs[ allowedInputs.index(answer) ]
